@@ -1,0 +1,15 @@
+/*Media example */
+@media all and (max-width: 800px) {
+    body {
+        background: red;
+    }
+    body header .navbar {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 850px) {
+    body header .navbar {
+        display: none;
+    }
+}
